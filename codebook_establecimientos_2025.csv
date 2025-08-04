@@ -1,0 +1,16 @@
+Variable,Tipo,Valores únicos,% Nulos,Descripción
+establecimiento_canon,cadena,2710,0.0,Nombre del establecimiento normalizado
+direccion_norm,cadena,4182,0.0,Dirección normalizada
+municipio,cadena,343,0.0,Nombre del municipio
+departamento,cadena,22,0.0,Nombre del departamento
+codigo,lista,4851,0.0,Código oficial MINEDUC (xx-xx-xxxx-xx)
+distrito,cadena,1230,0.0,Código de distrito educativo
+sector,cadena,19,0.0,Privado / Oficial
+area,cadena,27,0.0,Urbana / Rural
+supervisor,cadena,1194,0.0,Supervisor de Distrito
+director,cadena,3992,0.0,Director del establecimiento
+telefono_norm,lista,3136,0.0,Teléfonos válidos (8 dígitos)
+modalidad,lista,20,0.0,Modalidad educativa
+jornada,lista,198,0.0,"Jornada (matutina, vespertina, …)"
+plan,lista,195,0.0,"Plan de estudios (diario, fin de semana, …)"
+departamental,cadena,26,0.0,Dirección Departamental de Educación
