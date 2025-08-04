@@ -1,5 +1,7 @@
 # Proyecto 1 — Data Science
 
+enlace a documento de google donde se trabajo el libro de codigos: https://docs.google.com/document/d/1x8AZXUkQQas7glqyA1d4kRzkVKc5TikoHHSD6TIWxTU/edit?usp=sharing
+
 Este repositorio contiene el flujo completo para **extraer, limpiar, normalizar, deduplicar y documentar** los registros de establecimientos educativos de Guatemala publicados por el Ministerio de Educación (MINEDUC).  
 El resultado es un **dataset único y consistente** acompañado de su **Libro de Códigos**.
 
