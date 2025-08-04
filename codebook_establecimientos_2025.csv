@@ -1,16 +1,19 @@
+# Fuente: https://www.mineduc.gob.gt/BUSCAESTABLECIMIENTO_GE/
+# Fecha de extracción: 2025-07-16
+
 Variable,Tipo,Valores únicos,% Nulos,Descripción
-establecimiento_canon,cadena,2710,0.0,Nombre del establecimiento normalizado
-direccion_norm,cadena,4182,0.0,Dirección normalizada
-municipio,cadena,343,0.0,Nombre del municipio
-departamento,cadena,22,0.0,Nombre del departamento
-codigo,lista,4851,0.0,Código oficial MINEDUC (xx-xx-xxxx-xx)
-distrito,cadena,1230,0.0,Código de distrito educativo
-sector,cadena,19,0.0,Privado / Oficial
-area,cadena,27,0.0,Urbana / Rural
-supervisor,cadena,1194,0.0,Supervisor de Distrito
-director,cadena,3992,0.0,Director del establecimiento
-telefono_norm,lista,3136,0.0,Teléfonos válidos (8 dígitos)
-modalidad,lista,20,0.0,Modalidad educativa
-jornada,lista,198,0.0,"Jornada (matutina, vespertina, …)"
-plan,lista,195,0.0,"Plan de estudios (diario, fin de semana, …)"
-departamental,cadena,26,0.0,Dirección Departamental de Educación
+CODIGO,string,6590,0.00,Código oficial MINEDUC (xx-xx-xxxx-xx) único por establecimiento
+DISTRITO,string,620,0.00,Código de distrito educativo
+DEPARTAMENTO,string,23,0.00,Nombre del departamento
+MUNICIPIO,string,343,0.00,Nombre del municipio
+ESTABLECIMIENTO,string,3779,0.00,Nombre del establecimiento educativo normalizado
+DIRECCION,string,4427,0.03,Dirección física normalizada
+TELEFONO,string,4203,0.68,Teléfono institucional (8 dígitos, solo números)
+SUPERVISOR,string,598,0.00,Supervisor de distrito educativo
+DIRECTOR,string,3859,0.38,Director del establecimiento
+SECTOR,string,4,0.00,Privado / Oficial / Otros
+AREA,string,3,0.00,Urbana / Rural / Otros
+MODALIDAD,string,2,0.00,Modalidad educativa (ej. monolingüe, bilingüe)
+JORNADA,string,6,0.00,"Jornada educativa (matutina, vespertina, doble, etc.)"
+PLAN,string,12,0.00,"Plan de estudios (ej. diario(regular), fin de semana, etc.)"
+DEPARTAMENTAL,string,26,0.00,Dirección Departamental de Educación
